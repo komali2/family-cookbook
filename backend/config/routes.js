@@ -9,5 +9,5 @@
  */
 
 module.exports.routes = {
-  'POST /api/recipes': { actions: 'recipe/create', },
+  'POST /api/recipes': { action: 'recipe/create', },
 };

@@ -29,6 +29,7 @@ module.exports = {
 
 
   fn: async function ({ displayName }) {
+    console.log('saw action');
     await Recipe.create({
       displayName,
     }).fetch();
