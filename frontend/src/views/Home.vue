@@ -12,8 +12,8 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
   components: {
     HelloWorld,
   },
-  mounted() {
-    // this.$store.dispatch('getToken');
+  async mounted() {
+    await this.$store.dispatch('getToken');
     this.$store.dispatch('testFetch');
   },
 })
