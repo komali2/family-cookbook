@@ -13,6 +13,7 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
   mounted() {
+    // this.$store.dispatch('getToken');
     this.$store.dispatch('testFetch');
   },
 })
